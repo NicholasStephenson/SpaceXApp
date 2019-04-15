@@ -1,0 +1,58 @@
+<% include ./partials/header %>
+
+<div class="container">
+   <div class="row">
+       <div class="col-sm-7  mx-auto">
+   <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+     
+     <div class="container">
+         <ul class="nav nav-tabs nav-fill">
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/latestlaunch">Latest Launch</a>
+        </li>
+    </ul>
+     </div>
+     
+       <div class="container">
+           <img src="https://cdn.dribbble.com/users/720114/screenshots/3361407/rocket_3.gif" class="card-img-top" alt="...">
+       </div>
+  <div class="card-body">
+    <h3 class="card-title">Next SpaceX Launch</h3>
+    <hr>
+  </div>
+    <div class="card-body">
+    <h5 class="card-title">Launch Date</h5>
+    <p class="card-text"><%=launchDate %> UTC</p>
+  </div>
+     <div class="card-body">
+    <h5 class="card-title">Flight Number</h5>
+    <p class="card-text"><%=flightNumber %></p>
+  </div>
+    <div class="card-body">
+    <h5 class="card-title">Rocket Type</h5>
+    <p class="card-text"><%=rocketType %></p>
+  </div>
+      <div class="card-body">
+    <h5 class="card-title">Mission Name</h5>
+    <p class="card-text"><%=missionName %></p>
+  </div>
+      <div class="card-body">
+    <h5 class="card-title">Mission Details</h5>
+    <p class="card-text"><%=missionDetails %></p>
+  </div>
+        <div class="card-body">
+    <h5 class="card-title">Launch Site</h5>
+    <p class="card-text"><%=launchSite %></p>
+    <hr>
+    <a href="/" class="card-link text-dark">Back</a>
+  </div>
+</div>
+   
+</div>
+</div>
+</div>
+
+<% include ./partials/footer %>
